@@ -5,6 +5,7 @@
 int main () 
 {
          char letra;
+		    
     
          
     
@@ -16,10 +17,16 @@ int main ()
 	{ printf("\n Letra Maiscula!\n");
 	
 	}
-		else
+		else if ((letra>=97) && (letra<=122))
 		{
 			printf("\n Letra Miniscula!\n");
 			}
+	
+	else if ((letra>=48) && (letra<=57))
+	{ printf("\n Numero Nao Pode"\n)}
+	
+	
+	
 	
     system("pause");
     return 0;}
