@@ -7,8 +7,8 @@
 int main()
 {
       int origem;
-      int destino;
-      int resposta;
+	    int destino;
+ 
 
   
           printf("\n Ola, eu sou a Luise! Qual sua origem?\n");
@@ -18,7 +18,7 @@ int main()
   
         switch(origem)
         
-				{ case 1:
+	     	{ case 1:
                    printf("\n Entendi, Sua Origem: Rio de Janeiro \n");
                    printf("\n Qual seu destino? \n");
                    printf("\n 1-RJ  \n 2-SP  \n 3-SSA \n\n");
@@ -26,7 +26,7 @@ int main()
 
   	switch (destino)
 	
-		{ case 1:
+    	{ case 1:
 	         printf("\n OH NAO! O destino tem que ser diferente da origem! \n");
             printf("\n Qual seu destino? \n");
             printf("\n 2-SP  \n 3-SSA \n\n");
